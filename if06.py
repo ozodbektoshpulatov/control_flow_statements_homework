@@ -13,4 +13,19 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    main_positive=0
+    main_negative=0
+    if a>0:
+        main_positive+=1
+    elif a<0:   
+        main_negative+=1 
+    if b>0:
+        main_positive+=1    
+    elif b<0:
+        main_negative+=1
+    if c>0:
+        main_positive+=1
+    elif c<0:
+        main_negative+=1            
+    return main_positive, main_negative
+print(main(4,-6,2))
