@@ -11,4 +11,3 @@ def main(a):
     else: 
         a-=2   
     return a
-print(main(6))
