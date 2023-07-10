@@ -11,7 +11,6 @@ def main(a):
     Returns:
         string: the message to print
     """
-    a=int(input())
     if 10<=a<=99:
         if a%2==1:
             return "two-digit odd number"
